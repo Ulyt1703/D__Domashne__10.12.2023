@@ -1,0 +1,22 @@
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    position: absolute;
+    cursor: pointer;
+    padding: 0px 50px;
+    border-radius: 35px 35px 35px 35px;
+    background-color: yellow;
+    margin-top: 50%;
+}
+.best__modal-text-2{
+    position: absolute;
+    top: -85px;
+}
+.best__modal-text-2.new{
+    top: 10px;
+    transition: 1s;
+}
